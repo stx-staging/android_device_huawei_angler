@@ -340,6 +340,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += vndk_package
 
+# VoLTE
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.rat_on=combine \
+    persist.radio.calls.on.ims=1
+
 # VTS Tests
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 # For VTS profiling.
