@@ -189,3 +189,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_FLATTEN_APEX := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
+
+# VNDK
+BOARD_VNDK_VERSION := current
