@@ -19,8 +19,10 @@
 
 //#include <utils/KeyedVector.h>
 //#include <utils/String8.h>
-#include <camera/CameraParameters.h>
+#include <CameraParameters.h>
 
+using ::android::hardware::camera::common::V1_0::helper::CameraParameters;
+using ::android::hardware::camera::common::V1_0::helper::Size;
 namespace android {
 
 struct FPSRange{
