@@ -77,9 +77,10 @@ ifeq ($(call is-board-platform-in-list, msm8992),true)
 LOCAL_CFLAGS += -DOPTIMIZE_BUF_COUNT
 endif
 
-LOCAL_SHARED_LIBRARIES := liblog libhardware libutils libcutils libdl libsync
+LOCAL_SHARED_LIBRARIES := liblog libhardware libutils libcutils libdl libsync libbinder
 LOCAL_SHARED_LIBRARIES += libmmcamera_interface libmmjpeg_interface libui libcamera_metadata
 LOCAL_SHARED_LIBRARIES += libqdMetaData libstagefrighthw
+LOCAL_HEADER_LIBRARIES := OmxCore_headers gralloc_headers media_plugin_headers
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
