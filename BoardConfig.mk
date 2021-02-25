@@ -170,8 +170,7 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /vendor/bin/ATFWD-daemon|libcutils_shim.so \
-    /vendor/lib64/libcne.so|libcutils_shim.so \
-    /vendor/lib64/libril-qc-qmi-1.so|libaudioclient_shim.so \
+    /vendor/lib64/libcne.so|libcutils_shim.so
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh

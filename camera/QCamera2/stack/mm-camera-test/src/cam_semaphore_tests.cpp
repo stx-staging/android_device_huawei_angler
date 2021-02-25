@@ -16,7 +16,7 @@
 
 //#define LOG_NDEBUG 0
 #define LOG_TAG "cam_semaphore_tests"
-#include <utils/Log.h>
+#include <log/log.h>
 
 #include <gtest/gtest.h>
 

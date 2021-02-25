@@ -31,7 +31,7 @@
 
 #include <cutils/properties.h>
 #include <stdlib.h>
-#include <utils/Log.h>
+#include <log/log.h>
 #include "QCameraPerf.h"
 
 #ifdef CDBG

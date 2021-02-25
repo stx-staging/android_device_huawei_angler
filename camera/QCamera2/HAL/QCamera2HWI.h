@@ -31,7 +31,7 @@
 #define __QCAMERA2HARDWAREINTERFACE_H__
 
 #include <hardware/camera.h>
-#include <utils/Log.h>
+#include <log/log.h>
 #include <utils/Mutex.h>
 #include <utils/Condition.h>
 #include <QCameraParameters.h>
