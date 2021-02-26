@@ -34,6 +34,7 @@
 
 #include "mm_camera_interface.h"
 #include <hardware/camera.h>
+#include <utils/Timers.h>
 
 /**********************************************************************************
 * Data structure declare
