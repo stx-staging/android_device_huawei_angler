@@ -256,6 +256,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+   libaudioclient_shim \
    librmnetctl
 
 # SEC config
